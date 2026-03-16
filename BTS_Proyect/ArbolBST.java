@@ -90,7 +90,7 @@ public class ArbolBST {
     }   
     public String recorridoInorden() {
         StringBuilder sb = new StringBuilder();
-        //inordenRecursivo(raiz, sb);
+        inordenRecursivo(raiz, sb);
         return sb.toString().trim();
     }   
     void InOrden(Nodo nodo){
